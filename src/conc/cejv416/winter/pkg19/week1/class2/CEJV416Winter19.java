@@ -17,6 +17,8 @@ public class CEJV416Winter19 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        System.out.println("First Github");
         // TODO code application logic here
     }
     
