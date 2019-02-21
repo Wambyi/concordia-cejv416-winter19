@@ -3,24 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Assignment1;
+package conc.cejv416.winter.pkg19.week5.class2;
 
 /**
  *
  * @author gl_dani
  */
-public class trial1 {
+public class WorkerTest_Main {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) {  
+        Employee e = new Employee();
         
-        operators func = new operators();
-
-        func.selectPack();
-        func.getHours();
-
+        
     }
     
 }
