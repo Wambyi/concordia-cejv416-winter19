@@ -57,7 +57,7 @@ public class Rectangle2 extends GeometricObject {
     public String toString(){
        // Object o = new Object(); //all classes inherit from a master 'object'
         
-        return "Gladys";
+        return "Hey";
     }  
     
 }
