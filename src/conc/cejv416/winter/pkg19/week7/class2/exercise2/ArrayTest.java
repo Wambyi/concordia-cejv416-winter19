@@ -32,6 +32,10 @@ public class ArrayTest {
         
         System.out.println(maxArray(myList));   // max
         
+        int [] newArray = shiftArray(myList);
+        System.out.println(formatArray(newArray));   // shift
+        
+        
         
     }
     
@@ -65,9 +69,12 @@ public class ArrayTest {
     }
     
     // shift array
-//    public static int shiftArray(int[] inputArray){
-//        System.out.println("Still pending......" + inputArray);
-// 
-//    }
-    
+    public static int[] shiftArray(int[] inputArray){
+        int firstValue = inputArray[0];
+        for (int i = 1; i<inputArray.length; i++){
+            inputArray[i-1] = inputArray[i];
+        }
+        inputArray[inputArray.length-1] = firstValue;     
+        return inputArray;
+    }
 }
